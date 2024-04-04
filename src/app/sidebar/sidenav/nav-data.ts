@@ -1,33 +1,18 @@
 export const navbarData = [
   {
-    routerLink: 'dashboard',
+    routerLink: 'home',
     icon: 'fal fa-home',
     label: 'Dashboard',
   },
   {
-    routerLink: 'products',
-    icon: 'fal fa-box-open',
-    label: 'Products',
+    routerLink: 'selectedCamera',
+    icon: 'fa fa-play',
+    label: 'Controlar camara',
   },
   {
-    routerLink: 'statistics',
-    icon: 'fal fa-chart-bar',
-    label: 'Dashboard',
-  },
-  {
-    routerLink: 'coupens',
-    icon: 'fal fa-tags',
-    label: 'Coupens',
-  },
-  {
-    routerLink: 'pages',
-    icon: 'fal fa-file',
-    label: 'Pages',
-  },
-  {
-    routerLink: 'media',
-    icon: 'fal fa-camera',
-    label: 'Media',
+    routerLink: 'allCameras',
+    icon: 'fa fa-window-maximize',
+    label: 'Vista general',
   },
   {
     routerLink: 'settings',

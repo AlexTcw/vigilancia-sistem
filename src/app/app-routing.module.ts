@@ -1,22 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ProductsComponent } from './products/products.component';
-import { StatisticsComponent } from './statistics/statistics.component';
-import { CoupensComponent } from './coupens/coupens.component';
-import { PagesComponent } from './pages/pages.component';
-import { MediaComponent } from './media/media.component';
-import { SettingsComponent } from './settings/settings.component';
+import { SettingsComponent } from './components/settings/settings.component';
+import { HomeComponent } from './components/home/home.component';
+import { AllCamerasComponent } from './components/all-cameras/all-cameras.component';
+import { SelectedCameraComponent } from './components/selected-camera/selected-camera.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-  { path: 'dashboard', component: DashboardComponent },
-  { path: 'products', component: ProductsComponent },
-  { path: 'statistics', component: StatisticsComponent },
-  { path: 'coupens', component: CoupensComponent },
-  { path: 'pages', component: PagesComponent },
-  { path: 'media', component: MediaComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'allCameras', component: AllCamerasComponent },
+  { path: 'selectedCamera', component: SelectedCameraComponent },
   { path: 'settings', component: SettingsComponent },
 ];
 
